@@ -12,6 +12,7 @@ import brand_9 from "./images/brand9.jpg";
 import brand_10 from "./images/brand10.jpg";
 import brand_11 from "./images/brand11.jpg";
 import brand_12 from "./images/brand12.jpg";
+import brand_15 from "./images/brand15.jpg";
 import brand_13 from "./images/debugged.exe_logo.png"
 const BrandNames = () => {
   return (
@@ -31,6 +32,7 @@ BRANDS THAT HAVE HELPED US IN OUR INITIATIVES
             <img width='120px' src={brand_3} alt="error" className="brand" />
             <img width='120px' src={brand_4} alt="error" className="brand" />
             <img width='120px' src={brand_5} alt="error" className="brand" />
+    <img width='120px' src={brand_15} alt="error" className="brand" />
         </Marquee>
         <Marquee loop={0} gradient={false} pauseOnHover={true} freezeDelay={1000}  speed={80} className="brand_names m-0 ">
            
